@@ -1,5 +1,5 @@
 
-# 🧭 Habitus
+#  Habitus
 
 **Habitus** é um aplicativo de gerenciamento de hábitos desenvolvido como Projeto Livre da disciplina de **Orientação a Objetos (UnB FGA)**. Ele permite que usuários registrem seus hábitos diários, semanais ou mensais, acompanhem seu progresso e mantenham o foco nas metas pessoais com uma interface simples e intuitiva.
 
