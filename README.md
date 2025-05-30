@@ -5,38 +5,38 @@
 
 ---
 
-## 🧠 Funcionalidades
+##  Funcionalidades
 
-- ✅ Cadastrar novos hábitos com:
+-  Cadastrar novos hábitos com:
   - Nome
   - Descrição
   - Categoria
   - Periodicidade (diário, semanal ou mensal)
-- ✅ Marcar hábito como concluído no dia atual
-- ✅ Visualizar lista de hábitos ativos com progresso e última conclusão
-- ✅ Editar e excluir hábitos existentes
-- ✅ Persistência dos dados (os hábitos são salvos automaticamente)
-- ✅ Interface gráfica com botões intuitivos e lista dinâmica
+-  Marcar hábito como concluído no dia atual
+-  Visualizar lista de hábitos ativos com progresso e última conclusão
+-  Editar e excluir hábitos existentes
+-  Persistência dos dados (os hábitos são salvos automaticamente)
+-  Interface gráfica com botões intuitivos e lista dinâmica
 
 ---
 
-## 🖥️ Interface Gráfica
+##  Interface Gráfica
 
 Interface construída com **Tkinter**, apresentando:
 
-- Botão ➕ para novo hábito
+- Botão  para novo hábito
 - Lista com progresso de cada hábito
-- Botões ✏️ para edição e 🗑 para exclusão
-- Registro instantâneo com ✔️ “Marcar como feito”
+- Botões  para edição e 🗑 para exclusão
+- Registro instantâneo com  “Marcar como feito”
 
-### 📸 Captura de Tela (adicione depois)
+###  Captura de Tela (adicione depois)
 <!--
 ![Imagem da interface](docs/interface.png)
 -->
 
 ---
 
-## ⚙️ Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 habitus/
@@ -57,32 +57,31 @@ habitus/
 
 ---
 
-## 🧩 Conceitos de POO aplicados
+##  Conceitos de POO aplicados
 
-- ✅ **Encapsulamento**
-- ✅ **Herança** (`HabitoDiario`, `HabitoSemanal`, `HabitoMensal`)
-- ✅ **Polimorfismo** (`progresso()` implementado por tipo de hábito)
-- ✅ **Mixin** (`ExportavelMixin` para exportação em JSON)
-- ✅ **Composição** (`Habito` contém `Registro`)
-- ✅ **Associação fraca** (`Usuario` possui múltiplos `Habitos`)
+-  **Encapsulamento**
+-  **Herança** (`HabitoDiario`, `HabitoSemanal`, `HabitoMensal`)
+-  **Polimorfismo** (`progresso()` implementado por tipo de hábito)
+-  **Mixin** (`ExportavelMixin` para exportação em JSON)
+-  **Composição** (`Habito` contém `Registro`)
+-  **Associação fraca** (`Usuario` possui múltiplos `Habitos`)
 
 ---
 
-## 🗃️ Serialização
+##  Serialização
 
 Todos os dados são salvos automaticamente usando o módulo `pickle`.  
 O arquivo `dados.pkl` garante que os hábitos persistam entre sessões.
 
 ---
 
-## 🖼️ Diagrama de Classes UML
+##  Diagrama de Classes UML
 
 Arquivo incluído: `diagrama_classes_habitus.png`  
 Exibe as classes principais, atributos, métodos e relacionamentos.
 
 ---
-
-## 👨‍🏫 Projeto Acadêmico
+##  Projeto Acadêmico
 
 - **Disciplina:** Orientação a Objetos
 - **Curso:** Engenharia de Software – FGA/UnB
@@ -92,7 +91,7 @@ Exibe as classes principais, atributos, métodos e relacionamentos.
 
 ---
 
-## 📜 Licença
+##  Licença
 
 Uso acadêmico exclusivo.  
 Projeto desenvolvido para fins de avaliação e aprendizado.
