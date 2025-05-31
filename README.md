@@ -29,12 +29,8 @@ Interface construída com **Tkinter**, apresentando:
 - Botões  para edição e 🗑 para exclusão
 - Registro instantâneo com  “Marcar como feito”
 
-###  Captura de Tela (adicione depois)
-<!--
-![Imagem da interface](docs/interface.png)
--->
 
----
+
 
 ##  Estrutura do Projeto
 
